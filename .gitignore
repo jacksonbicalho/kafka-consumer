@@ -1,0 +1,19 @@
+.env
+
+# PHP
+php-fpm/log/*
+
+# Nginx
+nginx/conf/localhost.crt
+nginx/conf/localhost.key
+nginx/log/*
+nginx/certs/*
+nginx/snippets/*
+
+#postgres
+database/data/
+
+#application
+www/*
+
+!.keep

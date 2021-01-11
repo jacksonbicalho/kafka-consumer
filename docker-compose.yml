@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  kafka-consumer:
+    build: .
+    image: jacksonbicalho/kafka-consumer
+    container_name: kafka-consumer
+    volumes:
+      - ./consumer:/consumer
+    ports:
+      - 3000:3000
